@@ -1,0 +1,109 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0abe2f1f-077e-429a-90e2-eaa98f4483b5": {
+        "id": "0abe2f1f-077e-429a-90e2-eaa98f4483b5",
+        "parent": null,
+        "name": "californiaIndunilTestt",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "68d3713f-807b-4dce-a472-432590e391ac"
+        ],
+        "isRemovable": false,
+        "filePath": "californiaIndunilTestt"
+      },
+      "68d3713f-807b-4dce-a472-432590e391ac": {
+        "id": "68d3713f-807b-4dce-a472-432590e391ac",
+        "parent": "0abe2f1f-077e-429a-90e2-eaa98f4483b5",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "californiaIndunilTestt/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusWest1californiaSachithraqaany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "0abe2f1f-077e-429a-90e2-eaa98f4483b5",
+    "openFiles": [
+      "68d3713f-807b-4dce-a472-432590e391ac"
+    ],
+    "currentFileId": "68d3713f-807b-4dce-a472-432590e391ac",
+    "resources": {
+      "apigusWest1californiaSachithraqaany": {
+        "name": "apigusWest1californiaSachithraqaany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-west-1",
+          "apiMode": 1,
+          "apiName": "californiaSachithra",
+          "apiId": "7utp6maunf",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "oqxylhc32a",
+          "existingResources": {
+            "/qa": "kuvpmg",
+            "/qa/indu": "ndgty3",
+            "/": "oqxylhc32a"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/qa",
+          "resourceName": "qa",
+          "resourceId": "kuvpmg",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "6fzxfc",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "californiaIndunilTestt",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-west-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581490739346
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "californiaIndunilTestt",
+      "url": "https://github.com/Indunil1992/californiaIndunilTestt"
+    }
+  }
+}
